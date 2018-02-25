@@ -1,0 +1,520 @@
+@media only screen and (max-width: 640px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tc-navbar {
+        margin-bottom: 0;
+    }
+
+    .tc-navbar-brand {
+        font-family: fantasy;
+        width: 100%;
+        background-color: teal;
+    }
+
+   a.tc-navbar-brand p {
+        color: white;
+    }
+
+    div.tc-navbar a{
+        width: 100%;
+    }
+
+    a.tc-navbar-links p{
+        font-family: fantasy;
+        color: maroon;
+        font-weight: bold;
+    }
+
+    a.navbar-nav:link {
+        color: maroon;
+    }
+
+    body {
+        background-image: url("../assets/images/vintage-concrete.png");
+        background-color: gray;
+    }
+
+    .header-img-container {
+        min-height: 250px;
+        background-image: url(../assets/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center top;
+        /*padding: 40px; (If don't want to set min-height or some image content is there) */
+    }
+
+    .tc-img-margin {
+        margin-bottom: 0;
+    }
+
+    #tc-footer {
+        color: maroon;
+        font-family: fantasy;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tc-about-me {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .tc-about-me-header {
+        font-family: fantasy;
+        color: maroon;
+        margin-bottom: 10px;
+    }
+
+    .tc-about-me-hr {
+        border: none;
+        height: 3px;
+        background-color: lightgray;
+        margin-bottom: 15px;
+    }
+
+    .tc-connect-with-me {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        height: 200px;
+    }
+
+    .tc-connect-with-me-li {
+        display: inline;
+        padding-right: 20px;
+        margin-left: 21px;
+    }
+
+    .tc-connect-with-me-icons {
+        border-radius: 50%
+    }
+
+    .tc-about-me-img-float {
+        /*float: left;
+        margin-right: 30px;*/
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+    }
+
+    .tc-about-me-txt-float {
+        font-family: fantasy;
+        font-size: 16px;
+    }
+
+    .tc-contact-form {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-right: 150px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        height: 750px;
+    }
+
+    .tc-portfolio {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-right: 150px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        height: 750px;
+    }
+
+    .tc-contact-form-fields {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .tc-contact-form-textarea {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tc-contact-form-submit {
+        margin-left: 20px;
+        background-color: teal;
+    }
+
+    button.btn:hover {
+        background-color: maroon;
+    }
+
+    .tc-portfolio-hr {
+        border: none;
+        height: 3px;
+        background-color: lightgray;
+        margin-bottom: 45px;
+    }
+
+    .tc-portfolio-row-items {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .tc-portfolio-col-img {
+        margin-left: 10px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tc-navbar {
+        margin-bottom: 0;
+    }
+
+    .tc-navbar-brand {
+        font-family: fantasy;
+        position: relative;
+        left: 100px;
+        padding-left: 0;
+    }
+
+    .tc-navbar-links {
+        position: relative;
+        right: 285px;
+        font-family: fantasy;
+        color: red;
+    }
+
+    a.tc-test p:hover {
+        color: red;
+    }
+
+    a.navbar-nav:link {
+        color: maroon;
+    }
+
+    body {
+        background-image: url("../assets/images/vintage-concrete.png");
+        background-color: gray;
+    }
+
+    .header-img-container {
+        min-height: 650px;
+        background-image: url(../assets/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center top;
+        /*padding: 40px; (If don't want to set min-height or some image content is there) */
+    }
+
+    .tc-img-padding {
+        margin-bottom: 50px;
+    }
+
+    #tc-footer {
+        color: maroon;
+        font-family: fantasy;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tc-about-me {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-right: 150px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        height: 500px;
+    }
+
+    .tc-about-me-header {
+        font-family: fantasy;
+        color: maroon;
+        margin-bottom: 20px;
+    }
+
+    .tc-about-me-hr {
+        border: none;
+        height: 3px;
+        background-color: lightgray;
+        margin-bottom: 35px;
+    }
+
+    .tc-connect-with-me {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        height: 200px;
+    }
+
+    .tc-connect-with-me-li {
+        display: inline;
+        padding-right: 20px;
+        margin-left: 21px;
+    }
+
+    .tc-connect-with-me-icons {
+        border-radius: 50%
+    }
+
+    .tc-about-me-img-float {
+        /*float: left;
+        margin-right: 30px;*/
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+    }
+
+    .tc-about-me-txt-float {
+        font-family: fantasy;
+        font-size: 16px;
+    }
+
+    .tc-contact-form {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-right: 150px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        height: 750px;
+    }
+
+    .tc-portfolio {
+        background-color: white;
+        border-style: solid;
+        border-width: 5px;
+        border-color: teal;
+        margin-right: 150px;
+        margin-bottom: 100px;
+        padding-top: 20px;
+        height: 750px;
+    }
+
+    .tc-contact-form-fields {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .tc-contact-form-textarea {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tc-contact-form-submit {
+        margin-left: 20px;
+        background-color: teal;
+    }
+
+    button.btn:hover {
+        background-color: maroon;
+    }
+
+    .tc-portfolio-hr {
+        border: none;
+        height: 3px;
+        background-color: lightgray;
+        margin-bottom: 45px;
+    }
+
+    .tc-portfolio-row-items {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .tc-portfolio-col-img {
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 769px){
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .tc-navbar {
+            margin-bottom: 0;
+        }
+    
+        .tc-navbar-brand {
+            font-family: fantasy;
+            position: relative;
+           
+            padding-left: 0;
+            background-color: teal;
+        }
+
+        a.tc-navbar-brand p {
+            color: white;
+        }
+    
+        .tc-navbar-links {
+            position: relative;
+            right: 285px;
+            font-family: fantasy;
+            color: red;
+        }
+    
+        a.tc-test p:hover {
+            color: red;
+        }
+    
+        a.navbar-nav:link {
+            color: maroon;
+        }
+    
+        body {
+            background-image: url("../assets/images/vintage-concrete.png");
+            background-color: gray;
+        }
+    
+        .header-img-container {
+            min-height: 650px;
+            background-image: url(../assets/images/banner.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center top;
+            /*padding: 40px; (If don't want to set min-height or some image content is there) */
+        }
+    
+        .tc-img-margin {
+            margin-bottom: 50px;
+        }
+    
+        #tc-footer {
+            color: maroon;
+            font-family: fantasy;
+            font-size: 14px;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .tc-about-me {
+            background-color: white;
+            border-style: solid;
+            border-width: 5px;
+            border-color: teal;
+            margin-right: 150px;
+            margin-bottom: 100px;
+            padding-top: 20px;
+            height: 500px;
+        }
+    
+        .tc-about-me-header {
+            font-family: fantasy;
+            color: maroon;
+            margin-bottom: 20px;
+        }
+    
+        .tc-about-me-hr {
+            border: none;
+            height: 3px;
+            background-color: lightgray;
+            margin-bottom: 35px;
+        }
+    
+        .tc-connect-with-me {
+            background-color: white;
+            border-style: solid;
+            border-width: 5px;
+            border-color: teal;
+            height: 200px;
+        }
+    
+        .tc-connect-with-me-li {
+            display: inline;
+            padding-right: 20px;
+            margin-left: 21px;
+        }
+    
+        .tc-connect-with-me-icons {
+            border-radius: 50%
+        }
+    
+        .tc-about-me-img-float {
+            float: left;
+            margin-right: 30px;
+            border-radius: 50%;
+        }
+    
+        .tc-about-me-txt-float {
+            font-family: fantasy;
+            font-size: 16px;
+        }
+    
+        .tc-contact-form {
+            background-color: white;
+            border-style: solid;
+            border-width: 5px;
+            border-color: teal;
+            margin-right: 150px;
+            margin-bottom: 100px;
+            padding-top: 20px;
+            height: 750px;
+        }
+    
+        .tc-portfolio {
+            background-color: white;
+            border-style: solid;
+            border-width: 5px;
+            border-color: teal;
+            margin-right: 150px;
+            margin-bottom: 100px;
+            padding-top: 20px;
+            height: 750px;
+        }
+    
+        .tc-contact-form-fields {
+            width: 90%;
+            margin-left: 20px;
+        }
+    
+        .tc-contact-form-textarea {
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+    
+        .tc-contact-form-submit {
+            margin-left: 20px;
+            background-color: teal;
+        }
+    
+        button.btn:hover {
+            background-color: maroon;
+        }
+    
+        .tc-portfolio-hr {
+            border: none;
+            height: 3px;
+            background-color: lightgray;
+            margin-bottom: 45px;
+        }
+    
+        .tc-portfolio-row-items {
+            margin-left: 30px;
+            margin-bottom: 50px;
+        }
+    
+        .tc-portfolio-col-img {
+            margin-left: 10px;
+        }
+}
